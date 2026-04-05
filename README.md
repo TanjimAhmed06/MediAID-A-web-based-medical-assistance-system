@@ -1,1 +1,0 @@
-# MediAID-A-web-based-medical-assistance-system
