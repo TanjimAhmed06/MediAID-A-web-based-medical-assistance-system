@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    min-height: 100vh;
+    background-color: #b7d7f0;
+    align-items: center;
+    position: relative;
+}
+.ip{
+    width:70%;
+    padding:8px;
+    margin:10px 0;
+    border-radius:20px;
+    border:1px solid #cfd9e2;
+    font-size:10px;
+}
+.patient_registration_form{
+    box-shadow: 0 0 30px black;
+    background-color: white;
+    color: #004d40;
+    border-radius: 10px;
+    width: 700px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+.pat_image{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.patient_inputs{
+    /* display: flex;
+    flex-direction: column; */
+    /* gap: 10px; */
+    font-weight: bolder;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#pat_reg_btn{
+    color: #004d40;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    margin-left:40%;
+}
+button:hover{
+    background-color:#c1f0f6;
+    color:#000000;
+}
+#pat_header_text{
+    display: flex;
+    justify-content: center;  
+    align-items: flex-start;  
+    position: relative;       
+    margin-bottom: 20px;
+}

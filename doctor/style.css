@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    min-height: 100vh;
+    background-color: #b7d7f0;
+    align-items: center;
+    position: relative;
+}
+.doctor_registration_form{
+    background-color: white;
+    color: #004d40;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 600px;
+    padding: 20px;
+}
+.doc_image{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.ip{
+    width: 70%;
+    padding: 8px;
+    gap: 10px;
+    margin: 10px 0;
+    border-radius: 20px;
+    border:1px solid #cfd9e2;
+    font-size:10px;
+}
+.doctor_inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: bolder;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#doc_reg_btn{
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    cursor:pointer;
+    margin-left:40%;
+}
+button:hover{
+    background-color:white;
+    color:#26c6da;
+}
+#doc_header_text{
+    display: flex;
+    justify-content: center;  
+    align-items: flex-start;  
+    position: relative;       
+    margin-bottom: 20px;
+}
